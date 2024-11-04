@@ -96,7 +96,7 @@ At this point base installation has finished, so it's we should reboot
 2. Install the driver with`pacman -S xf86-video-<driver>`, where `<driver>` can be `vesa` or `ati` or `nouveau`.
 
 ### 5. What is the next step?
-Once you have your Base Archlinux system you should choose What [[glossary#Display Manager|Display manager]] use. Also you have to decide if you want a complete [[glossary#DE|DE]] or just a [[glossary#WM|WM]] and which you want to use.
+Once you have your Base Archlinux system you should choose What [Display manager](../utils/glossary.md#Display%20Manager) use. Also you have to decide if you want a complete [DE](../utils/glossary.md#DE) or just a [WM](../utils/glossary.md#WM) and which you want to use.
 
 ## What is GPT, MBR and what's the difference between both of them?
 
