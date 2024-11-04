@@ -1,3 +1,7 @@
+---
+tags: linux_installation
+---
+
 # Archlinux Installation
 
 ## 1. Download Archlinux ISO
@@ -91,7 +95,10 @@ At this point base installation has finished, so it's we should reboot
 1. `lspci | grep VGA`: find what type of VGA you have.
 2. Install the driver with`pacman -S xf86-video-<driver>`, where `<driver>` can be `vesa` or `ati` or `nouveau`.
 
-### What is GPT, MBR and what's the difference between both of them?
+### 5. What is the next step?
+Once you have your Base Archlinux system you should choose What [[glossary#Display Manager|Display manager]] use. Also you have to decide if you want a complete [[glossary#DE|DE]] or just a [[glossary#WM|WM]] and which you want to use.
+
+## What is GPT, MBR and what's the difference between both of them?
 
 #### GPT
 **GPT** or **GUID Partition Table** is a layout of the partition table of a hard drive that make uses of UEFI stuff. incompatible with BIOS. Creates a header and a footer to locate partition through a table.
