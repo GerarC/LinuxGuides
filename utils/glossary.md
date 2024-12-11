@@ -21,5 +21,15 @@ A display manager is an application that helps you to manage your sessions, i.e.
 ### Package Manager
 It's a, often [CLI](#CLI), application that lets you to install, uninstall and update packages in your Linux system, there are almost one per base distribution. <!-- Improve this definition -->
 
+### Modal Text Editor
+A modal text editor is one where you can switch through various modes of text edition and not only the insert mode (that one everybody is used to using). It's thought to be a better way to edit text using only keyboard. ^modal-text-editor
+
+An excellent example of this type of editors is Vim which has some modes: 
+- Normal: in this mode you just can use commands and move through the text using the keyboard.
+- Insert: with this mode you can write text like you arr accustomed.
+- Replace: in this mode, any what you write will replace the text below the cursor.
+- Visual: this mode can be used to select the text.
+- Terminal: you can use this mode like a normal terminal. ^modal-text-editor-example
+
 ### Service and Daemon Manager
 <!--TODO: Create a Service and Daemon Manager definition-->
