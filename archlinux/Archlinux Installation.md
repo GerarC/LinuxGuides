@@ -40,7 +40,7 @@ Once partitions are created and formatted, you must mount them so use the next c
 
 ### 3.5. **Base packages**
 1. `pacstrap -K /mnt linux linux-firmware base neovim dhcpcd networkmanager grub`: Install base packages.
-   - _linux:_ kernell package
+   - _linux:_ kernel package
    - _base:_ base applications like `ls`, `cat`, `cd` and more
    - _neovim:_ text editor
    - _dhcpcd:_ dhcp demon
@@ -70,7 +70,7 @@ Now we need to enter into the installed to make some configurations.
    > ##### BIOS
    > - `grub-install /dev/<hard_disk>`
 2. `grub-mkconfig -o /boot/grub/grub.cfg`
-3. It's should be not necessary, bu you can use `mkinitcpio -P` to create initramfs
+3. It's should be not necessary, but you can use `mkinitcpio -P` to create initramfs
 
 ### 3.10. **Admin Password and First User**
 1. As you should be admin, you can set an admin password with `passwd`
